@@ -1,11 +1,11 @@
-name: Test Email Step
+name: Email Step Test
 
 on:
-  workflow_dispatch:  # Allows manual triggering from the GitHub Actions UI
+  workflow_dispatch:  # Allows manual trigger from the Actions tab
 
 jobs:
-  test:
+  test-email-step:
     runs-on: ubuntu-latest
     steps:
       - name: 24f2004977@ds.study.iitm.ac.in
-        run: echo "Hello, world!"
+        run: echo "Hello from GitHub Actions!"
